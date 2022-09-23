@@ -7,7 +7,7 @@ const mongoUrl = process.env.MONGO_URL;
 const MongoUtil = require("./MongoUtil");
 
 app.use(express.json());
-app.use(cors());
+// app.use(cors());
 
 // Instantiating formsg-sdk without parameters default to using the package's
 // production public signing key.
